@@ -1,0 +1,17 @@
+Algoritmo sin_titulo
+	// Hacer un programa que calcule la media del primer mes que el usuario ingreso hasta el ultimo mes que el mismo usuario ingreso. 
+	Definir resultado, primer_mes, final_mes, acum, i, cantidad Como Entero
+	Escribir 'CUANTOS MESES LLEVAS DE QUE AUN NO HAS CALCULADO EL GASTO MENSUAL'	
+	Leer  Cantidad_mes
+	Para i=1 Hasta Cantidad_mes Con Paso 1 Hacer
+	
+		Escribir 'Dime el mes ' , i , ' Cuánto usted gasto: 'Sin Saltar
+		Leer  cantidad
+		acum=acum+cantidad
+	Fin Para
+	resultado=acum/Cantidad_mes
+	Escribir 'Usted gasto: ', resultado, ' $'
+	
+	
+	
+FinAlgoritmo
